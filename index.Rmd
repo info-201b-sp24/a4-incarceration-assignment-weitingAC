@@ -42,7 +42,7 @@ The data has several limitations, including significant missing values that coul
 
 ### Trends Over Time Chart
 
-This chart highlights a significant issue with incarceration rates in America by displaying the incarceration rates of different racial groups from 1990 to 2018. The data shows that Black Americans have consistently been incarcerated at much higher rates compared to other groups.Another notable trend is the steady increase in incarceration rates for White Americans.
+Trends Over Time Chart displays the disparity in incarceration rates among different racial groups in America from 1990 to 2018. Black Americans have consistently faced higher incarceration rates, though there has been some improvement since the late 1990s. Meanwhile, White Americans have seen a steady increase in incarceration rates, whereas other racial groups have generally experienced stagnation or decline. These trends emphasize the need for continued attention to racial disparities in the criminal justice system.
 
 
 ``````{r, echo = FALSE, code = readLines("chart1_example.R")}
@@ -50,7 +50,7 @@ This chart highlights a significant issue with incarceration rates in America by
 
 ### Variable Comparison Chart
 
-This chart compares the jail population rates of white individuals to those of black individuals in King County from 1990 to 2018. The chart aims to explore whether there is a correlation between the incarceration rates of black and white individuals to uncover any racial disparities in incarceration trends. The analysis reveals that there is no strong correlation between the two groups, with a correlation coefficient of 0.01726, indicating that the incarceration trends of black individuals do not significantly impact the incarceration trends of white individuals and vice versa.
+This chart examines how urbanization impacts incarceration rates among different racial groups. As America develops, it's crucial to understand how gentrification and urban growth influence these trends. The data shows that higher urbanicity generally correlates with lower incarceration rates across most ethnic groups, though Black Americans continue to face disproportionately high incarceration rates.
 
 
 ``````{r, echo = FALSE, code = readLines("chart2_example.R")}
@@ -58,7 +58,7 @@ This chart compares the jail population rates of white individuals to those of b
 
 ### Map
 
-This map illustrates how state incarceration rates are influenced by urbanization. An interesting pattern observed is that states with larger populations tend to see a positive change in incarceration rates as urbanization increases. However, some anomalies, like Utah, stand out due to data outliers. Additionally, states bordering the Gulf of Mexico exhibit significantly higher changes in incarceration rates across different urbanicity levels, possibly due to stricter immigration policies leading to higher incarceration rates in these states.
+This map highlights how urbanization affects incarceration rates in each state. Generally, states with larger populations see increased incarceration rates with higher urbanization. Utah is an outlier, likely due to data anomalies. Additionally, states along the Gulf of Mexico show significantly higher changes in incarceration rates, potentially due to stricter immigration policies.
 
 
 ``````{r, echo = FALSE, code = readLines("map_example.R")}
